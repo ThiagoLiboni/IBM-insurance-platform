@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.task-tools-manager{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.task-tools-manager-item{
+    width: 30%;
+    height: 70%;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.option-text-tools{
+    width: 47.5%;
+    white-space: nowrap;
+    font-size: 70%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.filter-period-task{
+    width: 20%;
+    min-width: 150px;
+    background-color: rgb(50, 50, 50);
+    height: 30px;
+    padding: 3px 3px;
+}
+.filter-period-task-item{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    color: rgb(165, 165, 165);
+    
+}
+.option-period{
+    width: 47.5%;
+    text-align: center;
+}
+.option-period:hover,
+.option-text-tools:hover,
+.clientName:hover{
+    cursor: pointer;
+    font-weight: 500;
+    color: chocolate;
+}
+.monthly{
+    background-color: rgb(60, 60, 60);
+    border-right: 1px solid rgb(194, 194, 194);
+    border-bottom: 1px solid rgb(194, 194, 194);
+    text-shadow: 1px 1px black;
+}
+.daily{
+    background-color: rgb(82, 82, 82);
+    border-right: 1px solid rgb(194, 194, 194);
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+.spacer{
+    width: 5%;
+    text-align: center;
+    margin-right: 1%;    
+}
+.agenda{
+    width: 100%;
+    height: 70vh;
+    margin: 10px;
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+}
+.pages-task{
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    overflow-x: overlay;
+    scrollbar-color: rgba(255, 255, 255, 0.185) transparent;
+    scrollbar-width: none;
+    scroll-padding: 0;
+}
+.pages-task:hover{
+    scrollbar-width: thin;
+}
+.page{
+ width: 26%;
+ min-width: 300px;
+ height: 96%;
+}
+.days{
+    width: 100%;
+    height: 95%;
+    border-radius: 10px;
+    background-color: rgb(29, 29, 29);
+    overflow-y: overlay;
+    scrollbar-width: none;
+}
+.monthTitle{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgb(50, 50, 50);
+    font-family: "Inika", serif;
+    letter-spacing: 5px;
+    color: rgb(235, 235, 235);
+    text-shadow: 1.5px 1.5px rgba(25, 25, 25, 0.845);
+}
+.day{
+    width: 95%;
+    height: auto;
+    border: 0.3px solid rgba(168, 168, 168, 0.433);
+    border-radius: 3px;
+    margin: 3px auto;
+    display: flex;
+    padding: 5px;
+    box-shadow: 1px 1px white;
+    color: white;
+}
+.free-day{
+    width: 100%;
+    height: 10px;
+}
+.taskUser{
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+    margin: 20px auto;
+}
+.taskCard{
+    width: 70%;
+}
+.targetName{
+text-transform: capitalize;
+font-family: "Oswald", serif;
+font-weight: normal;
+letter-spacing: 1px;
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+.notifyMessage{
+font-size: 15px;
+background-color: green;
+color: rgb(47, 47, 47);
+border-radius: 50%;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+width: 15px;
+height: 15px;
+font-weight: bold;
+font-family: "Inika", serif;
+}
+.numberDoc{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.contactClient{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.statusCard{
+    color: chocolate;
+}
