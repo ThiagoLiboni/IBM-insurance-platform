@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.id{
+    background-color: black;
+    border: green 2px solid;
+
+}
